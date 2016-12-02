@@ -1,16 +1,12 @@
-html,
 body {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    
-/*
-  background: url(../images/barbershop-index-grid.jpg) no-repeat 50% 3px;
-  background-size: 1122px auto;  
-*/
-
+    min-width: 960px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000 url("../images/background-page.jpg") no-repeat center top;
 }
 
 .clearfix::after {
@@ -23,24 +19,20 @@ body {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
-    background-color: #e37777;
 }
 
 .main-header {
-    background-color: #c7c7c7;
     margin-bottom: 60px;
 }
 
 .main-navigation {
     float: left;
     width: 780px;
-    background-color: #e3e3e3;
 }
 
 .user-block {
     float: right;
     width: 140px;
-    background-color: #e3e3e3;
 }
 
 .index-logo {
