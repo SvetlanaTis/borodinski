@@ -23,6 +23,8 @@ body {
 
 .main-header {
     margin-bottom: 60px;
+    color: #fff;
+    background-color: #000;
 }
 
 .main-navigation {
@@ -30,9 +32,65 @@ body {
     width: 780px;
 }
 
+.main-navigation a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 20px;
+}
+
+.main-navigation a:hover {
+    background: #242424;
+}
+
+.main-navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
 .user-block {
     float: right;
-    width: 140px;
+    max-width: 140px;
+}
+
+.login {
+    position: relative;
+    display: inline-block;
+    padding: 25px 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login:hover {
+    background: #242424;
+}
+
+.login::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    background: url("../images/sprite.png") no-repeat;
+    opacity: 0.3;
+}
+
+.login:hover::before {
+    opacity: 1;
 }
 
 .index-logo {
