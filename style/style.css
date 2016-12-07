@@ -1,11 +1,11 @@
 body {
-    min-width: 960px;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     font-family: "PT Sans Narrow", sans-serif;
-    color: #fff;
     text-transform: uppercase;
+    min-width: 960px;
+    color: #fff;
     background: #000 url("../images/background-page.jpg") no-repeat center top;
 }
 
@@ -387,4 +387,12 @@ body {
 .footer-copyright .btn:hover {
     color: #000;
     background-color: #fff;
+}
+
+
+/* SHOP PAGE */
+
+.main-body-shop {
+    background: #f8f5f2 url("../images/pattern-white.jpg") center top;
+    color: #000;
 }
