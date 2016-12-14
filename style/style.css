@@ -22,6 +22,7 @@ body {
 }
 
 .main-header {
+    min-height: 70px;
     margin-bottom: 60px;
     color: #fff;
     background-color: #000;
@@ -392,7 +393,92 @@ body {
 
 /* SHOP PAGE */
 
-.main-body-shop {
-    background: #f8f5f2 url("../images/pattern-white.jpg") center top;
+.inner-page {
     color: #000;
+    background: #f8f5f2 url("../images/pattern-white.jpg") repeat;
+}
+
+.inner-title {
+    margin-bottom: 50px;
+}
+
+.inner-title h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.breadcrumbs a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    color: #663d15;
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    position: relative;
+    display: inline;
+    padding-right: 40px;
+}
+
+.breadcrumbs li::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+
+.current {
+    color: #898989;
+}
+
+.breadcrumbs .current::after {
+    content: none;
+}
+
+.aside-filter {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.shop-content {
+    float: right;
+    width: 700px;
+    font-size: 0;
+}
+
+.shop-content-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 18px;
+    width: 220px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 1, 1, .2);
+}
+
+.shop-content-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.shop-content-item:hover {
+    box-shadow: 5px 0 15px 0 rgba(0, 0, 1 .3);
 }
